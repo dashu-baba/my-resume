@@ -1,0 +1,32 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 24px auto;
+  padding: 28px 32px;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-serif);
+  font-size: 11px;
+  line-height: 1.4;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.headerWrap {
+  border-left: 4px solid var(--color-muted);
+  padding-left: 10px;
+}
+
+@media print {
+  .page {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 18px 16px;
+    margin: 8px;
+  }
+}
