@@ -28,6 +28,7 @@ yarn-error.log*
 # coverage / test output
 coverage/
 .nyc_output/
+tsconfig.tsbuildinfo
 
 # claude-code scratch state
 .superpowers/
