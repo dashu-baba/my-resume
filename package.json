@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "preview": "npx serve out",
-    "lint": "next lint",
+    "lint": "eslint src",
     "type-check": "tsc --noEmit",
     "validate": "tsx scripts/validate-resume.ts",
     "prebuild": "npm run validate && npm run type-check",
