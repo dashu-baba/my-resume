@@ -1,0 +1,15 @@
+.entry {
+  font-size: 11px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.degree {
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.line {
+  color: var(--color-muted);
+  font-size: 10px;
+}
