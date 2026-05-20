@@ -4,7 +4,6 @@ import type { Role } from "@/lib/registry";
 import { loadResume } from "@/lib/resume";
 import { filterResumeForRole } from "@/lib/filter";
 import { ResumeShell } from "@/components/resume/ResumeShell";
-import { TopBar } from "@/components/chrome/TopBar";
 
 type Params = { role: string };
 
@@ -32,10 +31,5 @@ export default async function RoleDefaultPage({ params }: { params: Promise<Para
   const r = role as Role;
   if (!ROLES.includes(r)) notFound();
   const filtered = filterResumeForRole(loadResume(), r);
-  return (
-    <>
-      <TopBar role={r} template={DEFAULT_TEMPLATE} />
-      <ResumeShell template={DEFAULT_TEMPLATE} data={filtered} />
-    </>
-  );
+  return <ResumeShell template={DEFAULT_TEMPLATE} data={filtered} />;
 }
