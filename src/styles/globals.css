@@ -1,1 +1,50 @@
+/* Design tokens shared across all templates */
+:root {
+  --color-ink: #1a1a1a;
+  --color-muted: #595959;
+  --color-paper: #ffffff;
+  --color-accent: #1f3a8a;
+  --color-sidebar-bg: #1f2a3a;
+  --color-sidebar-ink: #e9edf4;
+  --color-sidebar-muted: #9fb4d8;
+  --color-rule: #9a9a9a;
 
+  --font-serif: Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  --font-mono: "SF Mono", Menlo, Consolas, monospace;
+
+  --page-margin: 12mm;
+  --page-max-width: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Page sizing for print. Engineers can re-declare margin inside @media print if needed. */
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@import "./print.css";

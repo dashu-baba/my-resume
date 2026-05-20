@@ -1,0 +1,38 @@
+@media print {
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  /* Force print color fidelity (Modern template's dark sidebar stays dark). */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Each experience entry should never split across pages. */
+  .break-avoid {
+    break-inside: avoid-page;
+    page-break-inside: avoid;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none;
+  }
+
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #555;
+  }
+
+  /* Suppress href-after-link for internal nav (links starting with /). */
+  a[href^="/"]::after {
+    content: none;
+  }
+}
