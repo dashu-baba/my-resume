@@ -8,7 +8,7 @@ const ByRole = <T extends z.ZodTypeAny>(value: T) =>
   z
     .object({
       default: value,
-      byRole: z.record(RoleEnum, value).optional(),
+      byRole: z.record(z.string(), value).optional(),
     })
     .strict();
 

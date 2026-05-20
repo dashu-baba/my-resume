@@ -14,8 +14,8 @@ export async function generateStaticParams(): Promise<Params[]> {
   return ROLES.map((role) => ({ role }));
 }
 
-export async function generateMetadata({ params }: { params: Params }) {
-  const { role } = params;
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
+  const { role } = await params;
   const r = role as Role;
   if (!ROLES.includes(r)) return {};
   const resume = loadResume();
@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: { params: Params }) {
   };
 }
 
-export default async function RoleDefaultPage({ params }: { params: Params }) {
-  const { role } = params;
+export default async function RoleDefaultPage({ params }: { params: Promise<Params> }) {
+  const { role } = await params;
   const r = role as Role;
   if (!ROLES.includes(r)) notFound();
   const filtered = filterResumeForRole(loadResume(), r);

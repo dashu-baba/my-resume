@@ -1,3 +1,6 @@
+/* @import must precede all other rules per CSS spec */
+@import "./print.css";
+
 /* Design tokens shared across all templates */
 :root {
   --color-ink: #1a1a1a;
@@ -41,10 +44,8 @@ a:hover {
   text-decoration: none;
 }
 
-/* Page sizing for print. Engineers can re-declare margin inside @media print if needed. */
+/* Page sizing for print */
 @page {
   size: A4;
   margin: 12mm;
 }
-
-@import "./print.css";
