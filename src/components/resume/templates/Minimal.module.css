@@ -1,0 +1,45 @@
+.page {
+  width: 100%;
+  max-width: 760px;
+  margin: 24px auto;
+  padding: 40px 44px;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.55;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.banner {
+  margin-bottom: 18px;
+}
+
+.bigName {
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.rule {
+  width: 32px;
+  height: 2px;
+  background: var(--color-ink);
+  margin: 8px 0;
+}
+
+@media print {
+  .page {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 22px 18px;
+    margin: 8px;
+  }
+}
