@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.left {
+  flex: 1;
+}
+
+.headerCompact {
+  display: block;
+}
+
+.name {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  line-height: 1.15;
+}
+
+.nameCompact {
+  font-size: 18px;
+  color: inherit;
+}
+
+.title {
+  margin-top: 4px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-muted);
+}
+
+.titleCompact {
+  color: var(--color-sidebar-muted);
+}
+
+.contact {
+  font-size: 10px;
+  line-height: 1.55;
+  text-align: right;
+}
+
+.contactCompact {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.contactLine {
+  display: block;
+}
+
+.contactSep {
+  margin: 0 4px;
+  color: var(--color-rule);
+}
