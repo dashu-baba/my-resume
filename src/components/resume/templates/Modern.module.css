@@ -1,0 +1,47 @@
+.page {
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin: 24px auto;
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 11px;
+  line-height: 1.4;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  display: grid;
+  grid-template-columns: 38% 62%;
+  min-height: 600px;
+}
+
+.sidebar {
+  background: var(--color-sidebar-bg);
+  color: var(--color-sidebar-ink);
+  padding: 28px 18px;
+}
+
+.main {
+  padding: 28px 24px;
+}
+
+.sidebar h2 {
+  color: var(--color-sidebar-ink);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+@media print {
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar,
+  .main {
+    padding: 18px 16px;
+  }
+}
