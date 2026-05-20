@@ -1,0 +1,52 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.entry {
+}
+
+.entryHead {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 11px;
+  color: var(--color-muted);
+  margin-top: 1px;
+}
+
+.role {
+  font-style: italic;
+}
+
+.summary {
+  font-size: 11px;
+  line-height: 1.45;
+  margin: 4px 0 4px;
+  color: var(--color-ink);
+}
+
+.techHeader {
+  font-size: 10px;
+  color: var(--color-muted);
+  margin-top: 6px;
+}
+
+.techGroup {
+  font-size: 10px;
+  line-height: 1.45;
+  color: var(--color-ink);
+  margin-top: 2px;
+}
