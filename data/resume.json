@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "name": "S M Nowshadur Rahaman",
+    "titles": {
+      "default": "Solution Architect | Senior Full Stack Engineer",
+      "byRole": {
+        "architect": "Solution Architect",
+        "fullstack": "Senior Full-Stack Engineer",
+        "backend": "Backend / Platform Engineer",
+        "frontend": "Senior Frontend Engineer",
+        "dotnet": "Senior .NET Engineer",
+        "js": "Senior JavaScript / TypeScript Engineer",
+        "golang": "Backend Engineer · Open to Go-focused roles"
+      }
+    },
+    "contact": {
+      "phone": "+880 1851 836744",
+      "email": "nowshad.rahaman@gmail.com",
+      "location": "Rampura, Dhaka, Bangladesh",
+      "links": [
+        { "label": "LinkedIn", "url": "https://www.linkedin.com/in/dashu-baba" },
+        { "label": "GitHub", "url": "https://github.com/dashu-baba" },
+        { "label": "TopCoder", "url": "https://www.topcoder.com/members/dashu-baba" }
+      ]
+    }
+  },
+  "overview": {
+    "default": "Hands-on architect with over 11+ years of experience developing scalable, cloud-native platforms across startups and enterprises. Specializes in JavaScript/TypeScript, .NET, distributed systems, serverless architecture, and real-time data pipelines. Proven leadership in architecting platforms, driving cross-functional teams, and managing the DevOps lifecycle.",
+    "byRole": {
+      "architect": "Solution architect with 11+ years building scalable cloud-native platforms. Focus on distributed systems, serverless, CQRS, edge-first design, and real-time data pipelines. Track record of leading migrations, designing event-driven backbones, and aligning engineering execution with product roadmap.",
+      "frontend": "Senior frontend engineer with 11+ years across React, Remix, Angular, Astro, Lit and Web Components. Shipped onboarding SDKs, content platforms, and product UIs with strong attention to performance, SEO, and accessibility.",
+      "backend": "Backend engineer with 11+ years building APIs, services, and data platforms on Node.js, .NET Core, and serverless runtimes. Deep experience with Postgres, Kafka, Redis, Cosmos DB, ClickHouse, and event-driven architectures.",
+      "dotnet": "Senior .NET engineer with extensive experience in ASP.NET Core, Azure Functions, Cosmos DB, SQL Server, and Azure DevOps. Hybrid background also covers Node.js and modern frontend, giving full-stack range on .NET projects.",
+      "js": "Senior JavaScript/TypeScript engineer with 11+ years across Node.js, React, Remix, Next.js, Astro, Lit, and the broader npm ecosystem. Experienced in both product engineering and platform/SDK work.",
+      "golang": "Backend engineer with 11+ years of distributed-systems and platform experience. Go is part of my working toolbox; actively seeking Go-focused roles where deep service and infra background applies."
+    }
+  },
+  "competencies": [
+    {
+      "category": "Architecture",
+      "items": ["Microservices", "Serverless", "CQRS", "SaaS Platforms", "Edge-first Design"],
+      "roles": ["architect", "backend", "fullstack", "dotnet", "js", "golang"]
+    },
+    {
+      "category": "Cloud Platforms",
+      "items": [
+        "AWS (Lambda, EC2, S3, RDS, CloudFront, SNS, SES)",
+        "Azure (Functions, Blob, Cosmos DB)",
+        "Cloudflare (R2, KV, Durable Objects)"
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": ["JavaScript", "TypeScript", "C#", "Python", "Java", "Go", "SQL"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React", "Remix", "Angular", "Lit", "Astro"],
+      "roles": ["architect", "fullstack", "frontend", "js"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", ".NET Core", "Express", "HonoJS", "Next.js", "FastAPI"],
+      "roles": ["architect", "fullstack", "backend", "dotnet", "js", "golang"]
+    },
+    {
+      "category": "Realtime",
+      "items": ["Kafka", "Redis", "Supabase", "RabbitMQ", "Ably"],
+      "roles": ["architect", "fullstack", "backend", "js", "golang"]
+    },
+    {
+      "category": "Data",
+      "items": [
+        "Microsoft SQL Server",
+        "PostgreSQL",
+        "MySQL",
+        "ClickHouse",
+        "Cosmos DB",
+        "DynamoDB"
+      ],
+      "roles": ["architect", "fullstack", "backend", "dotnet"]
+    },
+    {
+      "category": "DevOps & Observability",
+      "items": [
+        "CI/CD Pipelines",
+        "Docker",
+        "Terraform",
+        "GitHub Actions",
+        "Azure DevOps",
+        "Datadog (RUM, Tracing)",
+        "CloudWatch",
+        "App Insights"
+      ],
+      "roles": ["architect", "fullstack", "backend", "dotnet", "js", "golang"]
+    },
+    { "category": "Mobile", "items": ["Xamarin (Android)", "Flutter"], "roles": ["fullstack"] }
+  ],
+  "experience": [
+    {
+      "company": "AdoptSequence & AdoptIQ (Curtis Digital Inc.)",
+      "location": "Remote",
+      "role": "Solution Architect",
+      "period": "Oct 2023 – May 2025",
+      "summary": "Led architecture and platform engineering for two SaaS products: an onboarding/automation platform and an A/V enhancement workflow service.",
+      "bullets": [
+        {
+          "text": "Led backend migration of AdoptSequence from AWS Lambda → Trigger.dev to support long-running video processing.",
+          "roles": ["architect", "fullstack", "backend", "js"]
+        },
+        {
+          "text": "Built a public content-sharing system with Astro + Cloudflare Durable Objects; optimized for SEO and low global latency.",
+          "roles": ["architect", "fullstack", "frontend", "js"]
+        },
+        {
+          "text": "Architected end-to-end audio/video enhancement workflows using FFmpeg, Whisper, and AI voice synthesis.",
+          "roles": ["architect", "backend"]
+        },
+        {
+          "text": "Integrated Supabase for real-time sync and Postgres storage; replaced Ably, lowering latency and cost.",
+          "roles": ["architect", "fullstack", "backend", "js"]
+        },
+        {
+          "text": "Operationalized RUM + APM in Datadog with CloudWatch signals; guided devs to review error patterns, improving iteration speed by ~50%.",
+          "roles": ["architect", "fullstack", "backend"]
+        },
+        {
+          "text": "Implemented PostHog-based interaction analytics with Kafka ingestion, ClickHouse OLAP, and Redis caching; authored the event schema and ETL, reducing time-to-activation and improving onboarding efficiency.",
+          "roles": ["architect", "backend"]
+        },
+        {
+          "text": "Developed a modular onboarding SDK (Shadow DOM → Lit Web Components) and a lightweight Chrome extension to test/debug onboarding flows.",
+          "roles": ["architect", "fullstack", "frontend", "js"]
+        },
+        {
+          "text": "Owned the full DevOps lifecycle: CI/CD pipelines, infrastructure automation, deployment strategy, monitoring, and cloud cost optimization across AWS and Cloudflare.",
+          "roles": ["architect", "backend"]
+        },
+        { "text": "Managed multi-repo codebases on GitHub with standardized PR reviews and automation." },
+        { "text": "Mentored junior developers, enforced best practices, and led roadmap execution with founders." },
+        {
+          "text": "Integrated Clerk authentication across multiple applications.",
+          "roles": ["fullstack", "frontend", "backend", "js"]
+        }
+      ],
+      "techStack": [
+        {
+          "items": ["TypeScript", "JavaScript", "Node.js", "React", "Remix", "Lit", "Astro", "Next.js"],
+          "roles": ["architect", "fullstack", "frontend", "backend", "js"]
+        },
+        { "items": ["FFmpeg", "OpenAI Whisper", "Trigger.dev", "Clerk"], "roles": ["architect", "backend"] },
+        { "items": ["Supabase (Postgres, Realtime)", "Kafka", "Redis", "ClickHouse"], "roles": ["architect", "backend"] },
+        { "items": ["AWS (Lambda, EC2, S3, RDS, CloudFront)", "Cloudflare (Workers, Durable Objects, R2)"] },
+        { "items": ["PostHog", "Datadog", "CloudWatch", "GitHub Actions", "Docker"] }
+      ]
+    },
+    {
+      "company": "Colliers International (via TopCoder)",
+      "location": "Remote",
+      "role": "Senior Full-stack Developer",
+      "period": "Oct 2021 – Sep 2023",
+      "summary": "Modernized internal apps for a global commercial real-estate firm, replacing third-party tools with Azure-native and AWS-native services.",
+      "bullets": [
+        {
+          "text": "Replaced a 3rd-party valuation tool with an internal AWS solution (EC2, S3, SES, RDS) in 3 weeks; cut vendor cost ~60–80% and absorbed additional developer cost solo.",
+          "roles": ["architect", "fullstack", "backend", "dotnet"]
+        },
+        {
+          "text": "Architected microservices on Azure Functions backed by Cosmos DB + SQL Server; reduced API p95 latency ~30–50%.",
+          "roles": ["architect", "backend", "dotnet"]
+        },
+        {
+          "text": "Modernized Angular apps (major version upgrades + module refactors); build time reduced 25–40%, unit test coverage to 90%.",
+          "roles": ["fullstack", "frontend", "js"]
+        },
+        { "text": "Implemented IaC + CI/CD with Terraform and Azure DevOps.", "roles": ["architect", "backend", "dotnet"] },
+        { "text": "Migrated Google Maps → Mapbox, added static-map support for exported documents.", "roles": ["fullstack", "frontend", "js"] },
+        {
+          "text": "Mentored engineers and led POCs with architects/BAs; reduced new-hire ramp ~30–50% and accelerated concept-to-pilot ~2x."
+        },
+        { "text": "Drove code reviews and onboarding standards; PR cycle time −20–35%, post-release defects −20–40%." }
+      ],
+      "techStack": [
+        { "items": ["Angular", "TypeScript"], "roles": ["fullstack", "frontend", "js"] },
+        { "items": [".NET Core", "Azure Functions", "Cosmos DB", "SQL Server", "Service Bus"], "roles": ["architect", "backend", "dotnet"] },
+        { "items": ["GraphQL", "Power BI", "Mapbox", "Syncfusion"] },
+        { "items": ["AWS (RDS, EC2, S3, SES)", "Azure DevOps", "Terraform"], "roles": ["architect", "backend"] },
+        { "items": ["NestJS", "MySQL"], "roles": ["backend", "js"] }
+      ]
+    },
+    {
+      "company": "Relisource Inc.",
+      "location": "Dhaka, Bangladesh",
+      "role": "Senior Software Engineer",
+      "period": "Nov 2018 – Aug 2021",
+      "bullets": [
+        { "text": "Developed a Clinical Trial Management System for a global pharmaceutical client.", "roles": ["fullstack", "backend", "dotnet"] },
+        { "text": "Built an enterprise LMS platform with mobile support for educational clients.", "roles": ["fullstack", "dotnet"] },
+        { "text": "Actively mentored team members on architecture and clean code practices." }
+      ],
+      "techStack": [
+        { "items": ["TypeScript", "Angular", "AngularJS"], "roles": ["fullstack", "frontend", "js"] },
+        { "items": ["ASP.NET Core", "Azure Functions", "Azure Service Bus", "Microsoft SQL Server"], "roles": ["backend", "dotnet"] },
+        { "items": ["Xamarin"], "roles": ["fullstack"] }
+      ]
+    },
+    {
+      "company": "Astha IT",
+      "location": "Dhaka, Bangladesh",
+      "role": "Senior Software Engineer",
+      "period": "Mar 2014 – Oct 2018",
+      "bullets": [
+        { "text": "Led development for enterprise systems in logistics, education, and fintech." },
+        { "text": "Mentored junior engineers and participated in system architecture, client demos, and delivery cycles." }
+      ]
+    },
+    {
+      "company": "Onnorokom Software Ltd",
+      "location": "Dhaka, Bangladesh",
+      "role": "Junior Software Engineer",
+      "period": "Mar 2013 – Feb 2014",
+      "bullets": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "FinSync — Personal Finance Intelligence",
+      "description": "Elastic Serverless data streams + Vertex AI. Hybrid search (keyword + vector), monthly transforms, and a RAG chat layer. Pydantic-validated JSON ingestion.",
+      "url": "https://devpost.com/software/finsync-ai-powered-financial-assistant",
+      "roles": ["architect", "fullstack", "backend", "golang"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science and Engineering",
+      "institution": "Shahjalal University of Science and Technology",
+      "year": "2013"
+    }
+  ]
+}
